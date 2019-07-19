@@ -50,8 +50,8 @@ class Owner
       pet.mood = "nervous"
       pet.owner = nil
     end
-    @dogs = []
-    @cats = []
+    @dogs.clear
+    @cats.clear
   end
 
   def list_pets
