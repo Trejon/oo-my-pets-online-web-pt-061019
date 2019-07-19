@@ -72,5 +72,6 @@ tre.buy_cat("Sam")
 tre.buy_cat("Bob")
 
 puts tre.list_pets
-
+tre.sell_pet("Bob")
+puts tre.list_pets
 
