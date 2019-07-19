@@ -71,6 +71,6 @@ tre = Owner.new("Tre")
 tre.buy_cat("Sam")
 tre.buy_cat("Bob")
 
-tre.list_pets
+puts tre.list_pets
 
 
