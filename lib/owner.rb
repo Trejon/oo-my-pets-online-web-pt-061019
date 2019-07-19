@@ -59,5 +59,5 @@ class Owner
   end
   
   def sell_pet(name)
-    @name 
+    @dogs.delete_if {|dog
 end
