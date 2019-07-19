@@ -1,3 +1,6 @@
+require_relative "./cat.rb"
+
+
 class Owner
   attr_reader :name, :species
   attr_accessor :cats, :dogs
@@ -61,4 +64,13 @@ class Owner
   def sell_pet(name)
     @dogs.delete_if {|dog| dog.name == name}
     @cats.delete_if {|cat| cat.name == name}
+  end 
 end
+
+tre = Owner.new("Tre")
+tre.buy_cat("Sam")
+tre.buy_cat("Bob")
+
+tre.list_pets
+
+
